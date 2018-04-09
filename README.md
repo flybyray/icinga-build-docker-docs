@@ -22,7 +22,15 @@ scripts with a local Docker.
 cp icinga-build-docker ~/bin/
 
 cd ~/devel/icinga/rpm-icinga2
+
+# build the package
 icinga-build-docker centos/7:x86_64
+
+# result of the build
+ls -al build/
+
+# test the package, e.g. package installation
+icinga-build-docker centos/7:x86_64 icinga-build-test
 ```
 
 The full image name would be: `registry.icinga.com/build-docker/centos/7:x86_64`
