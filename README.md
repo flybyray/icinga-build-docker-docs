@@ -64,7 +64,7 @@ Image                | Task
 ## Other documentation
 
 * [Development](development.md)
-* [Scripts](scripts.md) (TODO)
+* [Scripts](scripts.md)
 * [Packages](packages.md) (TODO)
 
 ## License
